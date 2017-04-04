@@ -1,12 +1,12 @@
-subject: Guest ended to upload files
+subject: Voucher files uploaded
 
 {alternative:plain}
 
 Dear Sir or Madam,
 
-The following guest ended to upload files from your voucher :
+The following user has upload file(s) via your voucher:
 
-Guest: {guest.email}
+User: {guest.email}
 Voucher link: {cfg:site_url}?s=upload&vid={guest.token}
 
 The voucher is available until {date:guest.expires} after which time it will be automatically deleted.
@@ -21,7 +21,7 @@ Best regards,
 </p>
 
 <p>
-    The following guest ended to to upload files from your voucher :
+    The following user has upload file(s) via your voucher:
 </p>
 
 <table rules="rows">
